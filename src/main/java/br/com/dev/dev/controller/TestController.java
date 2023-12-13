@@ -19,4 +19,9 @@ public class TestController {
         return n1 + n2;
     }
 
+    @GetMapping("/cidade/{cidade}")
+    public String cidade(String cidade){
+        return cidade;
+    }
+
 }
